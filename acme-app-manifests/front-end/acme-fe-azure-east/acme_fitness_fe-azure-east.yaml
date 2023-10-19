@@ -45,7 +45,7 @@ spec:
         imagePullPolicy: Always
         env:
         - name: SHOPPING_TEXT
-          value: 'THIS FRONTEND IS RUNNING IN AWS US-West1'
+          value: 'THIS FRONTEND IS RUNNING IN AWS US-East1'
         - name: SHOPPING_IMAGE
           value: amazon.jpeg
         - name: FRONTEND_PORT
