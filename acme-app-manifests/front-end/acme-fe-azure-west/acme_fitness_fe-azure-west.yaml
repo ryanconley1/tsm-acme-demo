@@ -40,12 +40,14 @@ spec:
         version: v1
     spec:
       containers:
-      - image: rroque99/shopping:dynamic
+      - image: rroque99/shopping:dynamic2
         name: shopping
         imagePullPolicy: Always
         env:
         - name: SHOPPING_TEXT
-          value: 'THIS FRONTEND IS RUNNING IN AZURE WEST'
+          value: 'THIS FRONTEND IS RUNNING IN AWS US-WEST1'
+        - name: SHOPPING_IMAGE
+          value: amazon.jpeg
         - name: FRONTEND_PORT
           value: '3000'
         - name: USERS_HOST
